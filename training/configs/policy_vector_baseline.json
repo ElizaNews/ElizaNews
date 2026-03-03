@@ -1,0 +1,28 @@
+{
+  "experiment_name": "ainex_policy_vector_baseline",
+  "seed": 42,
+  "observation": {
+    "use_imu": true,
+    "use_battery": true,
+    "use_walk_state": true,
+    "use_camera_embedding": false
+  },
+  "policy": {
+    "embedding_dim": 128,
+    "hidden_dim": 256,
+    "output": [
+      "walk_x",
+      "walk_y",
+      "walk_yaw",
+      "walk_height",
+      "walk_speed",
+      "action_name"
+    ]
+  },
+  "training": {
+    "batch_size": 64,
+    "learning_rate": 0.0003,
+    "epochs": 50
+  }
+}
+

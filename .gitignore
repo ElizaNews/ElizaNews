@@ -6,3 +6,37 @@ __pycache__/
 *.swo
 *~
 .vscode/
+.claude/
+
+# Log files
+MUJOCO_LOG.TXT
+*.log
+
+# Plan files
+*.plan.md
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.h5
+*.weights
+
+# Training videos and large media
+training/videos/
+*.gif
+*.mp4
+*.avi
+
+# Separate repositories (have their own .git)
+eliza/
+benchmarks/
+examples/
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
