@@ -40,3 +40,6 @@ examples/
 .env.*
 *.key
 *.pem
+
+# Local robot config (machine-specific)
+scripts/.robot-ip
